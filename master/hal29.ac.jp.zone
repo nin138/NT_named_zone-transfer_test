@@ -1,0 +1,14 @@
+$TTL 1D
+@       IN SOA ns.hal29.ac.jp. root.hal29.ac.jp. (
+                                        20180531       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+        NS      ns.hal29.ac.jp.
+        A       127.0.0.1
+        AAAA    ::1
+
+ns  IN A 10.50.0.29
+yano IN A 10.50.0.29
+
